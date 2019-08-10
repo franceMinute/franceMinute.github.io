@@ -1,13 +1,38 @@
-@font-face {
-  font-family: CaviarDreams
-  src: url(fonts\CaviarDreams.ttf)
+body {
+  background-color: #E0E0E0;
 }
 
-.nav_bar{
-  font-family: CaviarDreams;
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #757575;
+  color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  font-family: 'Poiret One', cursive;  padding: 14px 16px;
+  text-decoration: none;
+  color: inherit;
+}
+
+li a:active {
+  background-color: #641E16;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color:  #D98880;
+  color: black;
+}
+
 }
 
 .center_responsive{
