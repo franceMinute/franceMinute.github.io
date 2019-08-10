@@ -1,6 +1,17 @@
-.mystyle{
+@font-face {
+  font-family: CaviarDreams
+  src: url(fonts\CaviarDreams.ttf)
+}
+
+.nav_bar{
+  font-family: CaviarDreams;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.center_responsive{
   margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
+  width: 100%;
+  align-items: center;
 }
