@@ -1,5 +1,14 @@
 body {
-  background-color: #E0E0E0;
+  max-width: 1280px;
+  align-items: center;
+  background-color: #EFEFEF;
+  text-decoration-color: #A9A9A9;
+  font-family: 'Slabo 27px', serif;
+
+}
+
+h1 {
+  font-size: 24pt;
 }
 
 ul {
@@ -7,8 +16,9 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #757575;
-  color: white;
+  background-color: #A9A9A9;
+  color: #EFEFEF;
+  position: sticky;
 }
 
 li {
@@ -18,9 +28,14 @@ li {
 li a {
   display: block;
   text-align: center;
-  font-family: 'Poiret One', cursive;  padding: 14px 16px;
+  font-size: 18pt;
+  padding: 14px 28px;
   text-decoration: none;
   color: inherit;
+}
+
+li .border {
+  text-decoration-color: red;
 }
 
 li a:active {
@@ -29,8 +44,7 @@ li a:active {
 }
 
 li a:hover:not(.active) {
-  background-color:  #D98880;
-  color: black;
+  background-color:  #FF3B3F;
 }
 
 }
