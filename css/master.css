@@ -43,14 +43,14 @@ li a:hover:not(.active) {
   background-color:  #FF3B3F;
 }
 
-li a .clicked {
-  color: blue;
-}
-
 }
 
 .center_responsive{
   margin: auto;
   width: 100%;
   align-items: center;
+}
+
+.right_align{
+  max-width: 100px;
 }
