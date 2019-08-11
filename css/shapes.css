@@ -1,6 +1,7 @@
 .rectangle {
-  height: 75px;
+  width: 20%;
   width: 75px;
+  height: 75px;
   background-color: #A4EDFF;
   border-bottom: 8px solid #EFEFEF;
 }

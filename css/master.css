@@ -1,10 +1,11 @@
 body {
   max-width: 1280px;
+  margin: auto;
+  padding: 10px;
   align-items: center;
   background-color: #EFEFEF;
   text-decoration-color: #A9A9A9;
   font-family: 'Slabo 27px', serif;
-
 }
 
 h1 {
@@ -18,7 +19,8 @@ ul {
   overflow: hidden;
   background-color: #A9A9A9;
   color: #EFEFEF;
-  position: sticky;
+  max-width: 1280px;
+  align-content: center;
 }
 
 li {
@@ -43,14 +45,15 @@ li a:hover:not(.active) {
   background-color:  #FF3B3F;
 }
 
-}
 
 .center_responsive{
+  width: 80%;
+  max-width: 500px;
+  display: block;
   margin: auto;
-  width: 100%;
-  align-items: center;
+  border: 1px solid #A9A9A9;
 }
 
-.right_align{
-  max-width: 100px;
+.title {
+  color: #424242;
 }
